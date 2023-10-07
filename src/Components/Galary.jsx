@@ -9,6 +9,9 @@ const Gallery = () =>{
             <img className='w-full h-full object-cover' src='https://images.pexels.com/photos/237272/pexels-photo-237272.jpeg?auto=compress&cs=tinysrgb&w=300' alt="/" />
         </div>
         <div>
+            <img className='w-full h-full object-cover'src='https://images.pexels.com/photos/1084362/pexels-photo-1084362.jpeg?auto=compress&cs=tinysrgb&w=300' alt="/" />
+        </div>
+        <div>
             <img className='w-full h-full object-cover' src='https://images.pexels.com/photos/240526/pexels-photo-240526.jpeg?auto=compress&cs=tinysrgb&w=300' alt="/" />
         </div>
         <div>
@@ -17,13 +20,33 @@ const Gallery = () =>{
         <div>
             <img className='w-full h-full object-cover'src='https://images.pexels.com/photos/917511/pexels-photo-917511.jpeg?auto=compress&cs=tinysrgb&w=600' alt="/" />
         </div>
-        <div>
+        <div className='sm:col-span-3 col-span-1 row-span-1'>
             <img className='w-full h-full object-cover'src='https://images.pexels.com/photos/2867110/pexels-photo-2867110.jpeg?auto=compress&cs=tinysrgb&w=600' alt="/" />
         </div>
-        {/* <div>
-            <img className='w-full h-full object-cover'src='https://images.pexels.com/photos/1084362/pexels-photo-1084362.jpeg?auto=compress&cs=tinysrgb&w=300' alt="/" />
-        </div> */}
     </div> 
+
+
+    {/* <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4'>
+    <div className='col-span-1 sm:col-span-1 md:col-span-1 lg:col-span-1 xl:col-span-1 row-span-2'>
+        <img className='w-full h-full object-cover' src='https://images.pexels.com/photos/237272/pexels-photo-237272.jpeg?auto=compress&cs=tinysrgb&w=300' alt="/" />
+    </div>
+    <div className='col-span-1 sm:col-span-1 md:col-span-1 lg:col-span-1 xl:col-span-1'>
+        <img className='w-full h-full object-cover' src='https://images.pexels.com/photos/1084362/pexels-photo-1084362.jpeg?auto=compress&cs=tinysrgb&w=300' alt="/" />
+    </div>
+    <div className='col-span-1 sm:col-span-1 md:col-span-1 lg:col-span-1 xl:col-span-1'>
+        <img className='w-full h-full object-cover' src='https://images.pexels.com/photos/240526/pexels-photo-240526.jpeg?auto=compress&cs=tinysrgb&w=300' alt="/" />
+    </div>
+    <div className='col-span-1 sm:col-span-1 md:col-span-1 lg:col-span-1 xl:col-span-1'>
+        <img className='w-full h-full object-cover' src='https://images.pexels.com/photos/1024960/pexels-photo-1024960.jpeg?auto=compress&cs=tinysrgb&w=300' alt="/" />
+    </div>
+    <div className='col-span-1 sm:col-span-1 md:col-span-1 lg:col-span-1 xl:col-span-1'>
+        <img className='w-full h-full object-cover' src='https://images.pexels.com/photos/917511/pexels-photo-917511.jpeg?auto=compress&cs=tinysrgb&w=600' alt="/" />
+    </div>
+    <div className='col-span-1 sm:col-span-1 md:col-span-1 lg:col-span-1 xl:col-span-1'>
+        <img className='w-full h-full object-cover' src='https://images.pexels.com/photos/2867110/pexels-photo-2867110.jpeg?auto=compress&cs=tinysrgb&w=600' alt="/" />
+    </div>
+</div> */}
+
    </div> 
   )  
 }

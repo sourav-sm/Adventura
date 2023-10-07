@@ -10,12 +10,9 @@
                 <h1 className='font-bold text-4xl'>
                     Find Your Special Trip
                 </h1>
-                <h2 className='text-4xl py-4 italic'>With Weekaway</h2>
+                <h2 className='text-4xl py-4 italic'>With Adventura</h2>
                 <p>
-                    lorem ipsum hhgbhgbjnjbbnjhb bbibjhuhihjjbj
-                    bbuibihjh
-                    bihuhjihihi
-                    bhiihiu
+                Welcome to Adventura, your one-stop destination for planning the perfect journey! From flights and hotels to personalized itineraries, we're here to make your travel dreams a reality.
                 </p>
             </div>
         </div>
